@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+<listeners>
+  	<!--<listener class-name = "commons.MethodListener"/> -->
+  	<listener class-name = "reportConfig.ReportNGListener"/>
+  	<listener class-name = "org.uncommons.reportng.HTMLReporter"/>
+  	<listener class-name = "org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+
+  <test name="Test">
+  <parameter name = "browser" value = "edge"/>
+    <classes>
+      <class name="testcase.TestLogin"/>
+    </classes>
+    
+  </test> 
+</suite> 

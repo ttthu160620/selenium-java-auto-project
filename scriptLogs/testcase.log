@@ -1,0 +1,61 @@
+[INFO ] [2025-04-12 19:08:38,458] Verify Login title is displayed: 'Đăng nhập'
+[INFO ] [2025-04-12 19:08:38,601] Verify username textbox is displayed
+[INFO ] [2025-04-12 19:08:38,697] Verify password textbox is displayed
+[INFO ] [2025-04-12 19:08:38,760] Verify user icon is displayed next to username textbox
+[INFO ] [2025-04-12 19:08:38,811] Verify password icon is displayed next to password textbox
+[INFO ] [2025-04-12 19:08:39,441] Enter to username textbox: admin
+[INFO ] [2025-04-12 19:08:39,612] Enter to password textbox: sspm2019!@#
+[INFO ] [2025-04-12 19:08:39,761] Click on 'Đăng nhập' button
+[INFO ] [2025-04-12 19:08:39,944] Verify the error message is displayed: 
+[INFO ] [2025-04-12 19:09:10,618] Enter to username textbox: administrator
+[INFO ] [2025-04-12 19:09:10,763] Enter to password textbox: sspm2019!@#
+[INFO ] [2025-04-12 19:09:10,900] Click on 'Đăng nhập' button
+[INFO ] [2025-04-12 19:09:11,043] Verify login successfully - Verify admin page is displayed
+[INFO ] [2025-04-12 19:15:15,607] Verify Login title is displayed: 'Đăng nhập'
+[INFO ] [2025-04-12 19:15:15,753] Verify username textbox is displayed
+[INFO ] [2025-04-12 19:15:15,824] Verify password textbox is displayed
+[INFO ] [2025-04-12 19:15:15,884] Verify user icon is displayed next to username textbox
+[INFO ] [2025-04-12 19:15:15,941] Verify password icon is displayed next to password textbox
+[INFO ] [2025-04-12 19:15:15,994] Verify 'Lưu mật khẩu' is displayed
+[INFO ] [2025-04-12 19:15:16,053] Verify 'Quên mật khẩu' is displayed
+[INFO ] [2025-04-12 19:15:16,105] Verify 'Đăng nhập' button is displayed
+[INFO ] [2025-04-12 19:15:16,247] Enter to username textbox: admin
+[INFO ] [2025-04-12 19:15:17,427] Enter to password textbox: sspm2019!@#
+[INFO ] [2025-04-12 19:15:17,582] Click on 'Đăng nhập' button
+[INFO ] [2025-04-12 19:15:17,771] Verify the error message is displayed: 
+[INFO ] [2025-04-12 19:15:48,457] Enter to username textbox: administrator
+[INFO ] [2025-04-12 19:15:49,619] Enter to password textbox: sspm2019!@#
+[INFO ] [2025-04-12 19:15:49,753] Click on 'Đăng nhập' button
+[INFO ] [2025-04-12 19:15:49,897] Verify login successfully - Verify admin page is displayed
+[INFO ] [2025-04-12 19:16:06,675] Verify Login title is displayed: 'Đăng nhập'
+[INFO ] [2025-04-12 19:16:06,794] Verify username textbox is displayed
+[INFO ] [2025-04-12 19:16:06,872] Verify password textbox is displayed
+[INFO ] [2025-04-12 19:16:06,955] Verify user icon is displayed next to username textbox
+[INFO ] [2025-04-12 19:16:07,008] Verify password icon is displayed next to password textbox
+[INFO ] [2025-04-12 19:16:07,061] Verify 'Lưu mật khẩu' is displayed
+[INFO ] [2025-04-12 19:16:07,121] Verify 'Quên mật khẩu' is displayed
+[INFO ] [2025-04-12 19:16:07,180] Verify 'Đăng nhập' button is displayed
+[INFO ] [2025-04-12 19:16:07,326] Enter to username textbox: admin
+[INFO ] [2025-04-12 19:16:08,512] Enter to password textbox: sspm2019!@#
+[INFO ] [2025-04-12 19:16:08,744] Click on 'Đăng nhập' button
+[INFO ] [2025-04-12 19:16:11,570] Verify the error message is displayed: 
+[INFO ] [2025-04-12 19:16:11,641] Enter to username textbox: administrator
+[INFO ] [2025-04-12 19:16:12,796] Enter to password textbox: sspm2019!@#
+[INFO ] [2025-04-12 19:16:12,946] Click on 'Đăng nhập' button
+[INFO ] [2025-04-12 19:16:14,499] Verify login successfully - Verify admin page is displayed
+[INFO ] [2025-04-12 19:17:24,418] Verify Login title is displayed: 'Đăng nhập'
+[INFO ] [2025-04-12 19:17:24,570] Verify username textbox is displayed
+[INFO ] [2025-04-12 19:17:24,653] Verify password textbox is displayed
+[INFO ] [2025-04-12 19:17:24,722] Verify user icon is displayed next to username textbox
+[INFO ] [2025-04-12 19:17:24,789] Verify password icon is displayed next to password textbox
+[INFO ] [2025-04-12 19:17:24,847] Verify 'Lưu mật khẩu' is displayed
+[INFO ] [2025-04-12 19:17:24,900] Verify 'Quên mật khẩu' is displayed
+[INFO ] [2025-04-12 19:17:24,950] Verify 'Đăng nhập' button is displayed
+[INFO ] [2025-04-12 19:17:25,121] Enter to username textbox: admin
+[INFO ] [2025-04-12 19:17:26,296] Enter to password textbox: sspm2019!@#
+[INFO ] [2025-04-12 19:17:26,457] Click on 'Đăng nhập' button
+[INFO ] [2025-04-12 19:17:26,726] Verify the error message is displayed: 
+[INFO ] [2025-04-12 19:17:26,805] Enter to username textbox: administrator
+[INFO ] [2025-04-12 19:17:27,978] Enter to password textbox: sspm2019!@#
+[INFO ] [2025-04-12 19:17:28,122] Click on 'Đăng nhập' button
+[INFO ] [2025-04-12 19:17:28,806] Verify login successfully - Verify admin page is displayed

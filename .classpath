@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resource"/>
+	<classpathentry kind="lib" path="libraries/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="libraries/commons-collections4-4.3.jar"/>
+	<classpathentry kind="lib" path="libraries/commons-compress-1.20.jar"/>
+	<classpathentry kind="lib" path="libraries/commons-io-2.7.jar"/>
+	<classpathentry kind="lib" path="libraries/commons-lang3-3.11.jar"/>
+	<classpathentry kind="lib" path="libraries/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="libraries/httpclient5-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libraries/httpcore5-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libraries/jarchivelib-1.0.0.jar"/>
+	<classpathentry kind="lib" path="libraries/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="libraries/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="libraries/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="libraries/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="libraries/webdrivermanager-4.2.0.jar"/>
+	<classpathentry kind="lib" path="libraries/libLog4j/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="libraries/libLog4j/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/allure-java-commons-2.13.5.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/allure-model-2.13.5.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/allure-testng-2.13.5.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/aspectjlib-1.6.2.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/aspectjrt-1.9.8.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/aspectjtools-1.9.8.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/aspectjweaver-1.9.8.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/bsh-2.0b6.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/jackson-core-2.9.8.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/jackson-databind-2.9.8.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/joor-java-8-0.9.10.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/okio-1.14.1.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="libraries/libAllure/tika-core-1.20.jar"/>
+	<classpathentry kind="lib" path="libraries/libReportNG/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="libraries/libReportNG/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="libraries/libReportNG/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="libraries/libReportNG/velocity-1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
