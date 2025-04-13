@@ -8,15 +8,33 @@
   	<listener class-name = "org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
 
-  <test name="ManagementProject">
+  <test name="Login">
   <parameter name = "browser" value = "edge"/>
     <classes>
       <class name="testcase.TestLogin"/>
+    </classes>
+  </test> 
+  
+  <test name="Infrastrructue_Management">
+  <parameter name = "browser" value = "edge"/>
+    <classes>
       <class name="testcase.TestProjectManage"/>
       <class name="testcase.TestBuildingBlockPage"/>
+    </classes>
+  </test> 
+  
+  <test name="Resident_Management">
+  <parameter name = "browser" value = "edge"/>
+    <classes>
       <class name="testcase.TestResidentManage"/>
+    </classes>
+  </test> 
+  
+  <test name="Income_Management">
+  <parameter name = "browser" value = "edge"/>
+    <classes>
       <class name="testcase.TestIncomeItem"/>
     </classes>
-    
   </test> 
+  
 </suite> 
