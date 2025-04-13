@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:32,232] Verify Login title is displayed: 'Đăng nhập'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:32,418] Verify username textbox is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:32,478] Verify password textbox is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:32,559] Verify user icon is displayed next to username textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:32,609] Verify password icon is displayed next to password textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:32,664] Verify 'Lưu mật khẩu' is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:32,723] Verify 'Quên mật khẩu' is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:32,776] Verify 'Đăng nhập' button is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:32,919] Enter to username textbox: admin
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:34,110] Enter to password textbox: sspm2019!@#
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:34,301] Click on 'Đăng nhập' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:34,660] Verify the error message is displayed: 'Tài khoản không hợp lệ!'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:34,753] Enter to username textbox: administrator
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:35,971] Enter to password textbox: sspm2019!@#
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:36,119] Click on 'Đăng nhập' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:36,979] Verify login successfully - Verify admin page is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:38,638] Precondition: Login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:39,778] Hover on 'Quản lý hạ tầng'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:39,930] Click on 'Quản lý dự án'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:40,184] Click on 'Thêm mới' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:40,349] Verify 'Nhập thông tin dự án' popup is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:40,645] Enter project name: Test project new780
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:40,796] Enter project address: Address Test
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:40,964] Click on 'Lưu' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:41,181] Verify 'Lưu thành công' message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:41,890] Click on Edit button of Test project new780
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:45,163] Verify 'Nhập thông tin dự án' popup is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:45,336] Enter project name: Test project edit195
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:45,517] Click on 'Lưu' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:45,653] Verify 'Cập nhật thành công' message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:46,285] Click on Delete button of Test project edit195
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:49,648] Verify delete alert is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:49,655] Click on OK button on alert
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:49,665] Verify 'Xóa thành công' message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:51,994] Precondition: Login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:53,155] Hover on 'Quản lý hạ tầng'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:53,307] Click on 'Quản lý khối nhà'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:53,592] Click on 'Thêm mới' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:53,737] Verify 'Nhập thông tin khối nhà' popup is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:53,999] Select project name: AN PHÚ
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:54,102] Enter buildig block name: Building new 546
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:54,260] Click on 'Lưu' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:54,407] Verify 'Lưu thành công' message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:05:55,100] Click on Edit button of Building new 546
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:11,027] Verify 'Nhập thông tin khối nhà' popup is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:11,172] Enter buildig block name: Building edit 14
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:11,339] Click on 'Lưu' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:11,489] Verify 'Cập nhật thành công' message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:12,148] Click on Delete button of Building edit 14
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:28,072] Verify delete alert is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:28,074] Click on OK button on alert
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:28,085] Verify 'Xóa thành công' message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:30,324] Precondition: Login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:31,601] Click on 'Quản lý cư dân'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:31,911] Click on 'Thêm mới' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:32,056] Verify 'Nhập thông tin cư dân' popup is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:32,880] Select project name: AN PHÚ
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:32,990] Enter resident famiy: Cư dân
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:33,224] Enter resident name: Tên 923
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:33,459] Select relationship option: Cháu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:33,643] Click on 'Lưu' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:33,882] Verify 'Lưu thành công' message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:34,570] Click on Edit button on row 5
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:34,729] Verify 'Nhập thông tin dự án' popup is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:34,941] Enter resident name: Tên 923 edit
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:35,183] Click on 'Lưu' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:35,379] Verify 'Cập nhật thành công' message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:36,119] Click on Delete button on row 5 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:36,237] Verify delete alert is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:36,240] Click on OK button on alert
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:36,251] Verify 'Xóa thành công' message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:38,423] Precondition: Login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:39,578] Hover on 'Quản lý thu chi'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:39,732] Click on 'Đề mục thu'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:40,085] Click on 'Thêm mới' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:40,245] Verify 'Nhập thông tin dự án' popup is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:40,634] Select project name: AN PHÚ
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:40,760] Enter income item name: Income new 390
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:40,972] Select status option: Có hiệu lực
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:41,102] Click on 'Lưu' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:41,310] Verify 'Lưu thành công' message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:41,990] Click on Edit button of Income new 390
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:42,144] Verify 'Nhập thông tin dự án' popup is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:42,281] Enter income item name: Income edit 85
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:42,458] Click on 'Lưu' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:42,599] Verify 'Cập nhật thành công' message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:43,283] Click on Delete button of Income edit 85
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:43,443] Verify delete alert is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:43,445] Click on OK button on alert
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2025-04-14 00:06:43,458] Verify 'Xóa thành công' message is displayed
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-04-13T17:05:29Z" name="Suite" finished-at="2025-04-13T17:06:44Z" duration-ms="74582">
+    <groups>
+    </groups>
+    <test started-at="2025-04-13T17:05:29Z" name="Test" finished-at="2025-04-13T17:06:44Z" duration-ms="74582">
+      <class name="testcase.TestBuildingBlockPage">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testcase.TestBuildingBlockPage@49c90a9c]" started-at="2025-04-13T17:05:50Z" name="beforeClass" finished-at="2025-04-13T17:05:53Z" duration-ms="2392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:51,994] Precondition: Login page
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Building_TC_01()[pri:0, instance:testcase.TestBuildingBlockPage@49c90a9c]" started-at="2025-04-13T17:05:53Z" name="Building_TC_01" finished-at="2025-04-13T17:05:55Z" duration-ms="1945" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:53,155] Hover on 'Quản lý hạ tầng'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:53,307] Click on 'Quản lý khối nhà'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:53,592] Click on 'Thêm mới' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:53,737] Verify 'Nhập thông tin khối nhà' popup is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:53,999] Select project name: AN PHÚ
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:54,102] Enter buildig block name: Building new 546
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:54,260] Click on 'Lưu' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:54,407] Verify 'Lưu thành công' message is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Building_TC_01 -->
+        <test-method signature="Building_TC_02()[pri:0, instance:testcase.TestBuildingBlockPage@49c90a9c]" started-at="2025-04-13T17:05:55Z" name="Building_TC_02" finished-at="2025-04-13T17:06:12Z" duration-ms="17048" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:55,100] Click on Edit button of Building new 546
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:11,027] Verify 'Nhập thông tin khối nhà' popup is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:11,172] Enter buildig block name: Building edit 14
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:11,339] Click on 'Lưu' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:11,489] Verify 'Cập nhật thành công' message is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Building_TC_02 -->
+        <test-method signature="Building_TC_03()[pri:0, instance:testcase.TestBuildingBlockPage@49c90a9c]" started-at="2025-04-13T17:06:12Z" name="Building_TC_03" finished-at="2025-04-13T17:06:28Z" duration-ms="16616" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:12,148] Click on Delete button of Building edit 14
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:28,072] Verify delete alert is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:28,074] Click on OK button on alert
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:28,085] Verify 'Xóa thành công' message is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Building_TC_03 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcase.TestBuildingBlockPage@49c90a9c]" started-at="2025-04-13T17:06:28Z" name="afterClass" finished-at="2025-04-13T17:06:29Z" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testcase.TestBuildingBlockPage -->
+      <class name="testcase.TestProjectManage">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testcase.TestProjectManage@45385f75]" started-at="2025-04-13T17:05:37Z" name="beforeClass" finished-at="2025-04-13T17:05:39Z" duration-ms="2344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:38,638] Precondition: Login page
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Project_TC_01()[pri:0, instance:testcase.TestProjectManage@45385f75]" started-at="2025-04-13T17:05:39Z" name="Project_TC_01" finished-at="2025-04-13T17:05:41Z" duration-ms="2112" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:39,778] Hover on 'Quản lý hạ tầng'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:39,930] Click on 'Quản lý dự án'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:40,184] Click on 'Thêm mới' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:40,349] Verify 'Nhập thông tin dự án' popup is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:40,645] Enter project name: Test project new780
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:40,796] Enter project address: Address Test
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:40,964] Click on 'Lưu' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:41,181] Verify 'Lưu thành công' message is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Project_TC_01 -->
+        <test-method signature="Project_TC_02()[pri:0, instance:testcase.TestProjectManage@45385f75]" started-at="2025-04-13T17:05:41Z" name="Project_TC_02" finished-at="2025-04-13T17:05:46Z" duration-ms="4395" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:41,890] Click on Edit button of Test project new780
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:45,163] Verify 'Nhập thông tin dự án' popup is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:45,336] Enter project name: Test project edit195
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:45,517] Click on 'Lưu' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:45,653] Verify 'Cập nhật thành công' message is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Project_TC_02 -->
+        <test-method signature="Project_TC_03()[pri:0, instance:testcase.TestProjectManage@45385f75]" started-at="2025-04-13T17:05:46Z" name="Project_TC_03" finished-at="2025-04-13T17:05:50Z" duration-ms="4144" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:46,285] Click on Delete button of Test project edit195
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:49,648] Verify delete alert is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:49,655] Click on OK button on alert
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:49,665] Verify 'Xóa thành công' message is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Project_TC_03 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcase.TestProjectManage@45385f75]" started-at="2025-04-13T17:05:50Z" name="afterClass" finished-at="2025-04-13T17:05:50Z" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testcase.TestProjectManage -->
+      <class name="testcase.TestLogin">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testcase.TestLogin@1c9b0314]" started-at="2025-04-13T17:05:29Z" name="beforeClass" finished-at="2025-04-13T17:05:32Z" duration-ms="2148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Login_TC_01()[pri:0, instance:testcase.TestLogin@1c9b0314]" started-at="2025-04-13T17:05:32Z" name="Login_TC_01" finished-at="2025-04-13T17:05:32Z" duration-ms="704" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:32,232] Verify Login title is displayed: 'Đăng nhập'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:32,418] Verify username textbox is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:32,478] Verify password textbox is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:32,559] Verify user icon is displayed next to username textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:32,609] Verify password icon is displayed next to password textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:32,664] Verify 'Lưu mật khẩu' is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:32,723] Verify 'Quên mật khẩu' is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:32,776] Verify 'Đăng nhập' button is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_TC_01 -->
+        <test-method signature="Login_TC_02()[pri:0, instance:testcase.TestLogin@1c9b0314]" started-at="2025-04-13T17:05:32Z" name="Login_TC_02" finished-at="2025-04-13T17:05:34Z" duration-ms="1829" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:32,919] Enter to username textbox: admin
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:34,110] Enter to password textbox: sspm2019!@#
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:34,301] Click on 'Đăng nhập' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:34,660] Verify the error message is displayed: 'Tài khoản không hợp lệ!'
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_TC_02 -->
+        <test-method signature="Login_TC_03()[pri:0, instance:testcase.TestLogin@1c9b0314]" started-at="2025-04-13T17:05:34Z" name="Login_TC_03" finished-at="2025-04-13T17:05:37Z" duration-ms="2308" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:34,753] Enter to username textbox: administrator
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:35,971] Enter to password textbox: sspm2019!@#
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:36,119] Click on 'Đăng nhập' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:05:36,979] Verify login successfully - Verify admin page is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_TC_03 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcase.TestLogin@1c9b0314]" started-at="2025-04-13T17:05:37Z" name="afterClass" finished-at="2025-04-13T17:05:37Z" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testcase.TestLogin -->
+      <class name="testcase.TestIncomeItem">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testcase.TestIncomeItem@69ee81fc]" started-at="2025-04-13T17:06:37Z" name="beforeClass" finished-at="2025-04-13T17:06:39Z" duration-ms="2355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:38,423] Precondition: Login page
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="IncomeItem_TC_01()[pri:0, instance:testcase.TestIncomeItem@69ee81fc]" started-at="2025-04-13T17:06:39Z" name="IncomeItem_TC_01" finished-at="2025-04-13T17:06:41Z" duration-ms="2396" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:39,578] Hover on 'Quản lý thu chi'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:39,732] Click on 'Đề mục thu'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:40,085] Click on 'Thêm mới' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:40,245] Verify 'Nhập thông tin dự án' popup is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:40,634] Select project name: AN PHÚ
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:40,760] Enter income item name: Income new 390
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:40,972] Select status option: Có hiệu lực
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:41,102] Click on 'Lưu' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:41,310] Verify 'Lưu thành công' message is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IncomeItem_TC_01 -->
+        <test-method signature="IncomeItem_TC_02()[pri:0, instance:testcase.TestIncomeItem@69ee81fc]" started-at="2025-04-13T17:06:41Z" name="IncomeItem_TC_02" finished-at="2025-04-13T17:06:43Z" duration-ms="1287" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:41,990] Click on Edit button of Income new 390
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:42,144] Verify 'Nhập thông tin dự án' popup is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:42,281] Enter income item name: Income edit 85
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:42,458] Click on 'Lưu' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:42,599] Verify 'Cập nhật thành công' message is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IncomeItem_TC_02 -->
+        <test-method signature="IncomeItem_TC_03()[pri:0, instance:testcase.TestIncomeItem@69ee81fc]" started-at="2025-04-13T17:06:43Z" name="IncomeItem_TC_03" finished-at="2025-04-13T17:06:44Z" duration-ms="915" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:43,283] Click on Delete button of Income edit 85
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:43,443] Verify delete alert is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:43,445] Click on OK button on alert
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:43,458] Verify 'Xóa thành công' message is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IncomeItem_TC_03 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcase.TestIncomeItem@69ee81fc]" started-at="2025-04-13T17:06:44Z" name="afterClass" finished-at="2025-04-13T17:06:44Z" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testcase.TestIncomeItem -->
+      <class name="testcase.TestResidentManage">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testcase.TestResidentManage@2d29b4ee]" started-at="2025-04-13T17:06:29Z" name="beforeClass" finished-at="2025-04-13T17:06:31Z" duration-ms="2531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:30,324] Precondition: Login page
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Resident_TC_01()[pri:0, instance:testcase.TestResidentManage@2d29b4ee]" started-at="2025-04-13T17:06:31Z" name="Resident_TC_01" finished-at="2025-04-13T17:06:34Z" duration-ms="2953" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:31,601] Click on 'Quản lý cư dân'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:31,911] Click on 'Thêm mới' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:32,056] Verify 'Nhập thông tin cư dân' popup is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:32,880] Select project name: AN PHÚ
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:32,990] Enter resident famiy: Cư dân
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:33,224] Enter resident name: Tên 923
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:33,459] Select relationship option: Cháu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:33,643] Click on 'Lưu' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:33,882] Verify 'Lưu thành công' message is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Resident_TC_01 -->
+        <test-method signature="Resident_TC_02()[pri:0, instance:testcase.TestResidentManage@2d29b4ee]" started-at="2025-04-13T17:06:34Z" name="Resident_TC_02" finished-at="2025-04-13T17:06:36Z" duration-ms="1535" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:34,570] Click on Edit button on row 5
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:34,729] Verify 'Nhập thông tin dự án' popup is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:34,941] Enter resident name: Tên 923 edit
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:35,183] Click on 'Lưu' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:35,379] Verify 'Cập nhật thành công' message is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Resident_TC_02 -->
+        <test-method signature="Resident_TC_03()[pri:0, instance:testcase.TestResidentManage@2d29b4ee]" started-at="2025-04-13T17:06:36Z" name="Resident_TC_03" finished-at="2025-04-13T17:06:36Z" duration-ms="818" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:36,119] Click on Delete button on row 5 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:36,237] Verify delete alert is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:36,240] Click on OK button on alert
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2025-04-14 00:06:36,251] Verify 'Xóa thành công' message is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Resident_TC_03 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcase.TestResidentManage@2d29b4ee]" started-at="2025-04-13T17:06:36Z" name="afterClass" finished-at="2025-04-13T17:06:37Z" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testcase.TestResidentManage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

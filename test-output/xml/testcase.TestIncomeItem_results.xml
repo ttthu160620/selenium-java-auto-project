@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.598">
+  <properties />
+  
+  
+            <testcase name="IncomeItem_TC_02" time="1.287" classname="testcase.TestIncomeItem" />
+                <testcase name="IncomeItem_TC_03" time="0.915" classname="testcase.TestIncomeItem" />
+                <testcase name="IncomeItem_TC_01" time="2.396" classname="testcase.TestIncomeItem" />
+      
+</testsuite>

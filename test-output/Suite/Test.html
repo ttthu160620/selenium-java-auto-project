@@ -1,0 +1,416 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 14 00:05:29 ICT 2025</td>
+</tr>
+<tr><td>Total time:</td><td>74 seconds (74582 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcase.TestBuildingBlockPage.Building_TC_01()'><b>Building_TC_01</b><br>Test class: testcase.TestBuildingBlockPage<br/>
+<a href="#Output-400216879" onClick='toggleBox("Output-400216879", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-400216879" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-400216879">
+[INFO ] [2025-04-14 00:05:53,155] Hover on 'Quản lý hạ tầng'
+<br><br/>
+[INFO ] [2025-04-14 00:05:53,307] Click on 'Quản lý khối nhà'
+<br><br/>
+[INFO ] [2025-04-14 00:05:53,592] Click on 'Thêm mới' button
+<br><br/>
+[INFO ] [2025-04-14 00:05:53,737] Verify 'Nhập thông tin khối nhà' popup is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:05:53,999] Select project name: AN PHÚ
+<br><br/>
+[INFO ] [2025-04-14 00:05:54,102] Enter buildig block name: Building new 546
+<br><br/>
+[INFO ] [2025-04-14 00:05:54,260] Click on 'Lưu' button
+<br><br/>
+[INFO ] [2025-04-14 00:05:54,407] Verify 'Lưu thành công' message is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testcase.TestBuildingBlockPage@49c90a9c</td></tr>
+<tr>
+<td title='testcase.TestBuildingBlockPage.Building_TC_02()'><b>Building_TC_02</b><br>Test class: testcase.TestBuildingBlockPage<br/>
+<a href="#Output-1562057770" onClick='toggleBox("Output-1562057770", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1562057770" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1562057770">
+[INFO ] [2025-04-14 00:05:55,100] Click on Edit button of Building new 546
+<br><br/>
+[INFO ] [2025-04-14 00:06:11,027] Verify 'Nhập thông tin khối nhà' popup is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:06:11,172] Enter buildig block name: Building edit 14
+<br><br/>
+[INFO ] [2025-04-14 00:06:11,339] Click on 'Lưu' button
+<br><br/>
+[INFO ] [2025-04-14 00:06:11,489] Verify 'Cập nhật thành công' message is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>testcase.TestBuildingBlockPage@49c90a9c</td></tr>
+<tr>
+<td title='testcase.TestBuildingBlockPage.Building_TC_03()'><b>Building_TC_03</b><br>Test class: testcase.TestBuildingBlockPage<br/>
+<a href="#Output-1529159609" onClick='toggleBox("Output-1529159609", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1529159609" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1529159609">
+[INFO ] [2025-04-14 00:06:12,148] Click on Delete button of Building edit 14
+<br><br/>
+[INFO ] [2025-04-14 00:06:28,072] Verify delete alert is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:06:28,074] Click on OK button on alert
+<br><br/>
+[INFO ] [2025-04-14 00:06:28,085] Verify 'Xóa thành công' message is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>testcase.TestBuildingBlockPage@49c90a9c</td></tr>
+<tr>
+<td title='testcase.TestIncomeItem.IncomeItem_TC_01()'><b>IncomeItem_TC_01</b><br>Test class: testcase.TestIncomeItem<br/>
+<a href="#Output-1521986562" onClick='toggleBox("Output-1521986562", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1521986562" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1521986562">
+[INFO ] [2025-04-14 00:06:39,578] Hover on 'Quản lý thu chi'
+<br><br/>
+[INFO ] [2025-04-14 00:06:39,732] Click on 'Đề mục thu'
+<br><br/>
+[INFO ] [2025-04-14 00:06:40,085] Click on 'Thêm mới' button
+<br><br/>
+[INFO ] [2025-04-14 00:06:40,245] Verify 'Nhập thông tin dự án' popup is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:06:40,634] Select project name: AN PHÚ
+<br><br/>
+[INFO ] [2025-04-14 00:06:40,760] Enter income item name: Income new 390
+<br><br/>
+[INFO ] [2025-04-14 00:06:40,972] Select status option: Có hiệu lực
+<br><br/>
+[INFO ] [2025-04-14 00:06:41,102] Click on 'Lưu' button
+<br><br/>
+[INFO ] [2025-04-14 00:06:41,310] Verify 'Lưu thành công' message is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testcase.TestIncomeItem@69ee81fc</td></tr>
+<tr>
+<td title='testcase.TestIncomeItem.IncomeItem_TC_02()'><b>IncomeItem_TC_02</b><br>Test class: testcase.TestIncomeItem<br/>
+<a href="#Output-1413154615" onClick='toggleBox("Output-1413154615", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1413154615" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1413154615">
+[INFO ] [2025-04-14 00:06:41,990] Click on Edit button of Income new 390
+<br><br/>
+[INFO ] [2025-04-14 00:06:42,144] Verify 'Nhập thông tin dự án' popup is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:06:42,281] Enter income item name: Income edit 85
+<br><br/>
+[INFO ] [2025-04-14 00:06:42,458] Click on 'Lưu' button
+<br><br/>
+[INFO ] [2025-04-14 00:06:42,599] Verify 'Cập nhật thành công' message is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testcase.TestIncomeItem@69ee81fc</td></tr>
+<tr>
+<td title='testcase.TestIncomeItem.IncomeItem_TC_03()'><b>IncomeItem_TC_03</b><br>Test class: testcase.TestIncomeItem<br/>
+<a href="#Output-482983323" onClick='toggleBox("Output-482983323", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-482983323" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-482983323">
+[INFO ] [2025-04-14 00:06:43,283] Click on Delete button of Income edit 85
+<br><br/>
+[INFO ] [2025-04-14 00:06:43,443] Verify delete alert is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:06:43,445] Click on OK button on alert
+<br><br/>
+[INFO ] [2025-04-14 00:06:43,458] Verify 'Xóa thành công' message is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcase.TestIncomeItem@69ee81fc</td></tr>
+<tr>
+<td title='testcase.TestLogin.Login_TC_01()'><b>Login_TC_01</b><br>Test class: testcase.TestLogin<br/>
+<a href="#Output-70555476" onClick='toggleBox("Output-70555476", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-70555476" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-70555476">
+[INFO ] [2025-04-14 00:05:32,232] Verify Login title is displayed: 'Đăng nhập'
+<br><br/>
+[INFO ] [2025-04-14 00:05:32,418] Verify username textbox is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:05:32,478] Verify password textbox is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:05:32,559] Verify user icon is displayed next to username textbox
+<br><br/>
+[INFO ] [2025-04-14 00:05:32,609] Verify password icon is displayed next to password textbox
+<br><br/>
+[INFO ] [2025-04-14 00:05:32,664] Verify 'Lưu mật khẩu' is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:05:32,723] Verify 'Quên mật khẩu' is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:05:32,776] Verify 'Đăng nhập' button is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcase.TestLogin@1c9b0314</td></tr>
+<tr>
+<td title='testcase.TestLogin.Login_TC_02()'><b>Login_TC_02</b><br>Test class: testcase.TestLogin<br/>
+<a href="#Output-1747025217" onClick='toggleBox("Output-1747025217", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1747025217" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1747025217">
+[INFO ] [2025-04-14 00:05:32,919] Enter to username textbox: admin
+<br><br/>
+[INFO ] [2025-04-14 00:05:34,110] Enter to password textbox: sspm2019!@#
+<br><br/>
+[INFO ] [2025-04-14 00:05:34,301] Click on 'Đăng nhập' button
+<br><br/>
+[INFO ] [2025-04-14 00:05:34,660] Verify the error message is displayed: 'Tài khoản không hợp lệ!'
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testcase.TestLogin@1c9b0314</td></tr>
+<tr>
+<td title='testcase.TestLogin.Login_TC_03()'><b>Login_TC_03</b><br>Test class: testcase.TestLogin<br/>
+<a href="#Output-276777344" onClick='toggleBox("Output-276777344", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-276777344" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-276777344">
+[INFO ] [2025-04-14 00:05:34,753] Enter to username textbox: administrator
+<br><br/>
+[INFO ] [2025-04-14 00:05:35,971] Enter to password textbox: sspm2019!@#
+<br><br/>
+[INFO ] [2025-04-14 00:05:36,119] Click on 'Đăng nhập' button
+<br><br/>
+[INFO ] [2025-04-14 00:05:36,979] Verify login successfully - Verify admin page is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testcase.TestLogin@1c9b0314</td></tr>
+<tr>
+<td title='testcase.TestProjectManage.Project_TC_01()'><b>Project_TC_01</b><br>Test class: testcase.TestProjectManage<br/>
+<a href="#Output-2092870757" onClick='toggleBox("Output-2092870757", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2092870757" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2092870757">
+[INFO ] [2025-04-14 00:05:39,778] Hover on 'Quản lý hạ tầng'
+<br><br/>
+[INFO ] [2025-04-14 00:05:39,930] Click on 'Quản lý dự án'
+<br><br/>
+[INFO ] [2025-04-14 00:05:40,184] Click on 'Thêm mới' button
+<br><br/>
+[INFO ] [2025-04-14 00:05:40,349] Verify 'Nhập thông tin dự án' popup is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:05:40,645] Enter project name: Test project new780
+<br><br/>
+[INFO ] [2025-04-14 00:05:40,796] Enter project address: Address Test
+<br><br/>
+[INFO ] [2025-04-14 00:05:40,964] Click on 'Lưu' button
+<br><br/>
+[INFO ] [2025-04-14 00:05:41,181] Verify 'Lưu thành công' message is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testcase.TestProjectManage@45385f75</td></tr>
+<tr>
+<td title='testcase.TestProjectManage.Project_TC_02()'><b>Project_TC_02</b><br>Test class: testcase.TestProjectManage<br/>
+<a href="#Output-534553956" onClick='toggleBox("Output-534553956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-534553956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-534553956">
+[INFO ] [2025-04-14 00:05:41,890] Click on Edit button of Test project new780
+<br><br/>
+[INFO ] [2025-04-14 00:05:45,163] Verify 'Nhập thông tin dự án' popup is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:05:45,336] Enter project name: Test project edit195
+<br><br/>
+[INFO ] [2025-04-14 00:05:45,517] Click on 'Lưu' button
+<br><br/>
+[INFO ] [2025-04-14 00:05:45,653] Verify 'Cập nhật thành công' message is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testcase.TestProjectManage@45385f75</td></tr>
+<tr>
+<td title='testcase.TestProjectManage.Project_TC_03()'><b>Project_TC_03</b><br>Test class: testcase.TestProjectManage<br/>
+<a href="#Output-1779615656" onClick='toggleBox("Output-1779615656", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1779615656" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1779615656">
+[INFO ] [2025-04-14 00:05:46,285] Click on Delete button of Test project edit195
+<br><br/>
+[INFO ] [2025-04-14 00:05:49,648] Verify delete alert is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:05:49,655] Click on OK button on alert
+<br><br/>
+[INFO ] [2025-04-14 00:05:49,665] Verify 'Xóa thành công' message is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testcase.TestProjectManage@45385f75</td></tr>
+<tr>
+<td title='testcase.TestResidentManage.Resident_TC_01()'><b>Resident_TC_01</b><br>Test class: testcase.TestResidentManage<br/>
+<a href="#Output-161123811" onClick='toggleBox("Output-161123811", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-161123811" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-161123811">
+[INFO ] [2025-04-14 00:06:31,601] Click on 'Quản lý cư dân'
+<br><br/>
+[INFO ] [2025-04-14 00:06:31,911] Click on 'Thêm mới' button
+<br><br/>
+[INFO ] [2025-04-14 00:06:32,056] Verify 'Nhập thông tin cư dân' popup is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:06:32,880] Select project name: AN PHÚ
+<br><br/>
+[INFO ] [2025-04-14 00:06:32,990] Enter resident famiy: Cư dân
+<br><br/>
+[INFO ] [2025-04-14 00:06:33,224] Enter resident name: Tên 923
+<br><br/>
+[INFO ] [2025-04-14 00:06:33,459] Select relationship option: Cháu
+<br><br/>
+[INFO ] [2025-04-14 00:06:33,643] Click on 'Lưu' button
+<br><br/>
+[INFO ] [2025-04-14 00:06:33,882] Verify 'Lưu thành công' message is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testcase.TestResidentManage@2d29b4ee</td></tr>
+<tr>
+<td title='testcase.TestResidentManage.Resident_TC_02()'><b>Resident_TC_02</b><br>Test class: testcase.TestResidentManage<br/>
+<a href="#Output-1808652004" onClick='toggleBox("Output-1808652004", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1808652004" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1808652004">
+[INFO ] [2025-04-14 00:06:34,570] Click on Edit button on row 5
+<br><br/>
+[INFO ] [2025-04-14 00:06:34,729] Verify 'Nhập thông tin dự án' popup is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:06:34,941] Enter resident name: Tên 923 edit
+<br><br/>
+[INFO ] [2025-04-14 00:06:35,183] Click on 'Lưu' button
+<br><br/>
+[INFO ] [2025-04-14 00:06:35,379] Verify 'Cập nhật thành công' message is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testcase.TestResidentManage@2d29b4ee</td></tr>
+<tr>
+<td title='testcase.TestResidentManage.Resident_TC_03()'><b>Resident_TC_03</b><br>Test class: testcase.TestResidentManage<br/>
+<a href="#Output-251915919" onClick='toggleBox("Output-251915919", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-251915919" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-251915919">
+[INFO ] [2025-04-14 00:06:36,119] Click on Delete button on row 5 
+<br><br/>
+[INFO ] [2025-04-14 00:06:36,237] Verify delete alert is displayed
+<br><br/>
+[INFO ] [2025-04-14 00:06:36,240] Click on OK button on alert
+<br><br/>
+[INFO ] [2025-04-14 00:06:36,251] Verify 'Xóa thành công' message is displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcase.TestResidentManage@2d29b4ee</td></tr>
+</table><p>
+</body>
+</html>
