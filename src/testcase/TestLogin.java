@@ -69,7 +69,7 @@ public class TestLogin extends BaseTest{
 		log.info("Click on 'Đăng nhập' button");
 		loginPage.clickToLoginButton();
 		
-		log.info("Verify the error message is displayed: " );
+		log.info("Verify the error message is displayed: 'Tài khoản không hợp lệ!'" );
 		loginPage.verifyInccorectAccountMsgDisplayed();
 	}
 	

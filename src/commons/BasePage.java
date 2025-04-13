@@ -134,7 +134,7 @@ public class BasePage {
 		} else if (locatorType.startsWith("xpath=")) {
 			by = By.xpath(locatorType.substring(6));
 		} else {
-			throw new RuntimeException("Locator type is not defined");
+			throw new RuntimeException("Locator type '" + locatorType + "' is not defined");
 		}
 		return by;
 	}

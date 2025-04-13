@@ -1,16 +1,90 @@
-[INFO ] [2025-04-12 19:17:24,418] Verify Login title is displayed: 'Đăng nhập'
-[INFO ] [2025-04-12 19:17:24,570] Verify username textbox is displayed
-[INFO ] [2025-04-12 19:17:24,653] Verify password textbox is displayed
-[INFO ] [2025-04-12 19:17:24,722] Verify user icon is displayed next to username textbox
-[INFO ] [2025-04-12 19:17:24,789] Verify password icon is displayed next to password textbox
-[INFO ] [2025-04-12 19:17:24,847] Verify 'Lưu mật khẩu' is displayed
-[INFO ] [2025-04-12 19:17:24,900] Verify 'Quên mật khẩu' is displayed
-[INFO ] [2025-04-12 19:17:24,950] Verify 'Đăng nhập' button is displayed
-[INFO ] [2025-04-12 19:17:25,121] Enter to username textbox: admin
-[INFO ] [2025-04-12 19:17:26,296] Enter to password textbox: sspm2019!@#
-[INFO ] [2025-04-12 19:17:26,457] Click on 'Đăng nhập' button
-[INFO ] [2025-04-12 19:17:26,726] Verify the error message is displayed: 
-[INFO ] [2025-04-12 19:17:26,805] Enter to username textbox: administrator
-[INFO ] [2025-04-12 19:17:27,978] Enter to password textbox: sspm2019!@#
-[INFO ] [2025-04-12 19:17:28,122] Click on 'Đăng nhập' button
-[INFO ] [2025-04-12 19:17:28,806] Verify login successfully - Verify admin page is displayed
+[INFO ] [2025-04-14 00:05:32,232] Verify Login title is displayed: 'Đăng nhập'
+[INFO ] [2025-04-14 00:05:32,418] Verify username textbox is displayed
+[INFO ] [2025-04-14 00:05:32,478] Verify password textbox is displayed
+[INFO ] [2025-04-14 00:05:32,559] Verify user icon is displayed next to username textbox
+[INFO ] [2025-04-14 00:05:32,609] Verify password icon is displayed next to password textbox
+[INFO ] [2025-04-14 00:05:32,664] Verify 'Lưu mật khẩu' is displayed
+[INFO ] [2025-04-14 00:05:32,723] Verify 'Quên mật khẩu' is displayed
+[INFO ] [2025-04-14 00:05:32,776] Verify 'Đăng nhập' button is displayed
+[INFO ] [2025-04-14 00:05:32,919] Enter to username textbox: admin
+[INFO ] [2025-04-14 00:05:34,110] Enter to password textbox: sspm2019!@#
+[INFO ] [2025-04-14 00:05:34,301] Click on 'Đăng nhập' button
+[INFO ] [2025-04-14 00:05:34,660] Verify the error message is displayed: 'Tài khoản không hợp lệ!'
+[INFO ] [2025-04-14 00:05:34,753] Enter to username textbox: administrator
+[INFO ] [2025-04-14 00:05:35,971] Enter to password textbox: sspm2019!@#
+[INFO ] [2025-04-14 00:05:36,119] Click on 'Đăng nhập' button
+[INFO ] [2025-04-14 00:05:36,979] Verify login successfully - Verify admin page is displayed
+[INFO ] [2025-04-14 00:05:38,638] Precondition: Login page
+[INFO ] [2025-04-14 00:05:39,778] Hover on 'Quản lý hạ tầng'
+[INFO ] [2025-04-14 00:05:39,930] Click on 'Quản lý dự án'
+[INFO ] [2025-04-14 00:05:40,184] Click on 'Thêm mới' button
+[INFO ] [2025-04-14 00:05:40,349] Verify 'Nhập thông tin dự án' popup is displayed
+[INFO ] [2025-04-14 00:05:40,645] Enter project name: Test project new780
+[INFO ] [2025-04-14 00:05:40,796] Enter project address: Address Test
+[INFO ] [2025-04-14 00:05:40,964] Click on 'Lưu' button
+[INFO ] [2025-04-14 00:05:41,181] Verify 'Lưu thành công' message is displayed
+[INFO ] [2025-04-14 00:05:41,890] Click on Edit button of Test project new780
+[INFO ] [2025-04-14 00:05:45,163] Verify 'Nhập thông tin dự án' popup is displayed
+[INFO ] [2025-04-14 00:05:45,336] Enter project name: Test project edit195
+[INFO ] [2025-04-14 00:05:45,517] Click on 'Lưu' button
+[INFO ] [2025-04-14 00:05:45,653] Verify 'Cập nhật thành công' message is displayed
+[INFO ] [2025-04-14 00:05:46,285] Click on Delete button of Test project edit195
+[INFO ] [2025-04-14 00:05:49,648] Verify delete alert is displayed
+[INFO ] [2025-04-14 00:05:49,655] Click on OK button on alert
+[INFO ] [2025-04-14 00:05:49,665] Verify 'Xóa thành công' message is displayed
+[INFO ] [2025-04-14 00:05:51,994] Precondition: Login page
+[INFO ] [2025-04-14 00:05:53,155] Hover on 'Quản lý hạ tầng'
+[INFO ] [2025-04-14 00:05:53,307] Click on 'Quản lý khối nhà'
+[INFO ] [2025-04-14 00:05:53,592] Click on 'Thêm mới' button
+[INFO ] [2025-04-14 00:05:53,737] Verify 'Nhập thông tin khối nhà' popup is displayed
+[INFO ] [2025-04-14 00:05:53,999] Select project name: AN PHÚ
+[INFO ] [2025-04-14 00:05:54,102] Enter buildig block name: Building new 546
+[INFO ] [2025-04-14 00:05:54,260] Click on 'Lưu' button
+[INFO ] [2025-04-14 00:05:54,407] Verify 'Lưu thành công' message is displayed
+[INFO ] [2025-04-14 00:05:55,100] Click on Edit button of Building new 546
+[INFO ] [2025-04-14 00:06:11,027] Verify 'Nhập thông tin khối nhà' popup is displayed
+[INFO ] [2025-04-14 00:06:11,172] Enter buildig block name: Building edit 14
+[INFO ] [2025-04-14 00:06:11,339] Click on 'Lưu' button
+[INFO ] [2025-04-14 00:06:11,489] Verify 'Cập nhật thành công' message is displayed
+[INFO ] [2025-04-14 00:06:12,148] Click on Delete button of Building edit 14
+[INFO ] [2025-04-14 00:06:28,072] Verify delete alert is displayed
+[INFO ] [2025-04-14 00:06:28,074] Click on OK button on alert
+[INFO ] [2025-04-14 00:06:28,085] Verify 'Xóa thành công' message is displayed
+[INFO ] [2025-04-14 00:06:30,324] Precondition: Login page
+[INFO ] [2025-04-14 00:06:31,601] Click on 'Quản lý cư dân'
+[INFO ] [2025-04-14 00:06:31,911] Click on 'Thêm mới' button
+[INFO ] [2025-04-14 00:06:32,056] Verify 'Nhập thông tin cư dân' popup is displayed
+[INFO ] [2025-04-14 00:06:32,880] Select project name: AN PHÚ
+[INFO ] [2025-04-14 00:06:32,990] Enter resident famiy: Cư dân
+[INFO ] [2025-04-14 00:06:33,224] Enter resident name: Tên 923
+[INFO ] [2025-04-14 00:06:33,459] Select relationship option: Cháu
+[INFO ] [2025-04-14 00:06:33,643] Click on 'Lưu' button
+[INFO ] [2025-04-14 00:06:33,882] Verify 'Lưu thành công' message is displayed
+[INFO ] [2025-04-14 00:06:34,570] Click on Edit button on row 5
+[INFO ] [2025-04-14 00:06:34,729] Verify 'Nhập thông tin dự án' popup is displayed
+[INFO ] [2025-04-14 00:06:34,941] Enter resident name: Tên 923 edit
+[INFO ] [2025-04-14 00:06:35,183] Click on 'Lưu' button
+[INFO ] [2025-04-14 00:06:35,379] Verify 'Cập nhật thành công' message is displayed
+[INFO ] [2025-04-14 00:06:36,119] Click on Delete button on row 5 
+[INFO ] [2025-04-14 00:06:36,237] Verify delete alert is displayed
+[INFO ] [2025-04-14 00:06:36,240] Click on OK button on alert
+[INFO ] [2025-04-14 00:06:36,251] Verify 'Xóa thành công' message is displayed
+[INFO ] [2025-04-14 00:06:38,423] Precondition: Login page
+[INFO ] [2025-04-14 00:06:39,578] Hover on 'Quản lý thu chi'
+[INFO ] [2025-04-14 00:06:39,732] Click on 'Đề mục thu'
+[INFO ] [2025-04-14 00:06:40,085] Click on 'Thêm mới' button
+[INFO ] [2025-04-14 00:06:40,245] Verify 'Nhập thông tin dự án' popup is displayed
+[INFO ] [2025-04-14 00:06:40,634] Select project name: AN PHÚ
+[INFO ] [2025-04-14 00:06:40,760] Enter income item name: Income new 390
+[INFO ] [2025-04-14 00:06:40,972] Select status option: Có hiệu lực
+[INFO ] [2025-04-14 00:06:41,102] Click on 'Lưu' button
+[INFO ] [2025-04-14 00:06:41,310] Verify 'Lưu thành công' message is displayed
+[INFO ] [2025-04-14 00:06:41,990] Click on Edit button of Income new 390
+[INFO ] [2025-04-14 00:06:42,144] Verify 'Nhập thông tin dự án' popup is displayed
+[INFO ] [2025-04-14 00:06:42,281] Enter income item name: Income edit 85
+[INFO ] [2025-04-14 00:06:42,458] Click on 'Lưu' button
+[INFO ] [2025-04-14 00:06:42,599] Verify 'Cập nhật thành công' message is displayed
+[INFO ] [2025-04-14 00:06:43,283] Click on Delete button of Income edit 85
+[INFO ] [2025-04-14 00:06:43,443] Verify delete alert is displayed
+[INFO ] [2025-04-14 00:06:43,445] Click on OK button on alert
+[INFO ] [2025-04-14 00:06:43,458] Verify 'Xóa thành công' message is displayed
